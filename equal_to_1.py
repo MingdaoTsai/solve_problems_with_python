@@ -17,14 +17,3 @@ for i in range(len(totallist)):
 		#break
 		print(mylist[0],"/",mylist[1],mylist[2],"+",mylist[3],"/",mylist[4],mylist[5],"+",mylist[6],"/",mylist[7],mylist[8])
 
-def fib(n):
-	a, b = 0, 1
-	for _ in range(n):
-		a, b = b, a + b
-		yield a
-def main():
-	for val in fib(20):
-		print(val)
-
-if __name__ == '__main__':
-    main()
