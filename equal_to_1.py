@@ -1,3 +1,4 @@
+#solve: a/bc + d/ef + g/hi = 1
 import itertools 
 
 def myFunc (inputlist):
