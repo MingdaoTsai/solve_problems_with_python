@@ -1,7 +1,7 @@
 #solve: a/bc + d/ef + g/hi = 1
 import itertools 
 
-def myFunc (inputlist):
+def myFunc1 (inputlist):
 	ret=inputlist[0]/(inputlist[1]*10+inputlist[2]) + inputlist[3]/(inputlist[4]*10+inputlist[5]) + inputlist[6]/(inputlist[7]*10+inputlist[8])
 	return ret
 
@@ -10,7 +10,7 @@ totallist=list(itertools.permutations([1,2,3,4,5,6,7,8,9],9))
 print(len(totallist))
 for i in range(len(totallist)):
 	mylist=totallist[i]
-	Ans=myFunc(mylist)
+	Ans=myFunc1 (mylist)
 	if Ans==1:
 		print("SEQ=")
 		print(mylist)
