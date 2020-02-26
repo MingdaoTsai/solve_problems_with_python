@@ -1,3 +1,7 @@
+# 測試區
+password = "mypassword"
+sshkey = "ASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDFASDF"
+# 程式區
 def fib(n):
 	a, b = 0, 1
 	for _ in range(n):
